@@ -3063,16 +3063,16 @@ hr {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
-    padding-bottom: 21px;
+    padding-top: 1px;
+    padding-bottom: 0px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
-    padding-bottom: 21px;
+    padding-top: 1px;
+    padding-bottom: 0px;
   }
 }
 
