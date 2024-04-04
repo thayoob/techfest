@@ -24,6 +24,39 @@
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/css/nice-select.css">
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        .preloader-active {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            /* Black background with some transparency */
+            z-index: 9999;
+            /* Ensure it's on top of other content */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .preloader-container {
+            position: relative;
+        }
+
+        .preloader-image {
+            text-align: center;
+        }
+
+        .preloader-image img {
+            display: block;
+            margin: 0 auto;
+            /* Center the image */
+        }
+    </style>
+
+
 </head>
 
 <body class="black-bg">
@@ -32,8 +65,9 @@
         <div class="preloader d-flex align-items-center justify-content-center">
             <div class="preloader-inner position-relative">
                 <div class="preloader-circle"></div>
+
                 <div class="preloader-img pere-text">
-                    <img src="assets/img/logo/loder.png" alt="">
+                    <img src="assets/img/logo/Tech.svg" alt="" style="color: red;">
                 </div>
             </div>
         </div>
@@ -47,8 +81,10 @@
                     <div class="menu-wrapper d-flex align-items-center justify-content-between">
                         <!-- Logo -->
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            <a href="index.html"><img src="assets/img/logo/Tech.svg" alt=""
+                                    style="width: 200px; height: auto;"></a>
                         </div>
+
                         <!-- Main-menu -->
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
@@ -96,8 +132,8 @@
                             <div class="col-xl-9 col-lg-9 col-md-10">
                                 <div class="hero__caption">
                                     <span data-animation="fadeInLeft" data-delay="0.1s" id="timer"></span>
-                                    <h1 data-animation="fadeInLeft" data-delay="0.4s">InnovateX</h1>
-                                    <a href="courses.html" class="border-btn hero-btn" data-animation="fadeInLeft"
+                                    <h1 data-animation="fadeInLeft" data-delay="0.4s">TechFesta</h1>
+                                    <a href="#techevnt" class="border-btn hero-btn" data-animation="fadeInLeft"
                                         data-delay="0.8s">Present By Bca</a>
                                 </div>
                             </div>
@@ -112,7 +148,7 @@
                 <div class="right-content2">
                     <!-- img -->
                     <div class="right-img wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s">
-                        <img src="assets/img/gallery/about3.gif" alt="">
+                        <img src="assets/img/gallery/helo.gif" alt="">
                     </div>
                 </div>
                 <div class="left-content2">
@@ -967,7 +1003,8 @@
                         <div class="col-xl-12">
                             <div class="single-footer-caption mb-50 text-center">
                                 <div class="footer-logo wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                                    <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                    <a href="index.html"><img src="assets/img/logo/Tech.svg" width="200px" height="auto"
+                                            alt=""></a>
                                 </div>
                                 <div class="header-area main-header2 wow fadeInUp" data-wow-duration="2s"
                                     data-wow-delay=".4s">
