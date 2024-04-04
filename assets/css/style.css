@@ -3079,8 +3079,10 @@ hr {
 @media (max-width: 575px) {
   /* line 5, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_headerMenu.scss */
   .header-area .main-header {
-    padding-top: 16px;
-    padding-bottom: 21px;
+    /* padding-top: 16px;
+    padding-bottom: 21px; */
+    padding-top: 1px;
+    padding-bottom: 0px;
   }
 }
 
