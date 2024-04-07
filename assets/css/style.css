@@ -7786,18 +7786,15 @@ del {
   font-weight: 300;
 }
 
-/* line 1005, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .default-select .nice-select::after {
   right: 20px;
 }
 
-/* line 1010, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select {
   height: 40px;
   width: 100%;
 }
 
-/* line 1013, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select {
   border: none;
   border-radius: 0px;
@@ -7808,7 +7805,6 @@ del {
   width: 100%;
 }
 
-/* line 1021, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select .list {
   margin-top: 0;
   border: none;
@@ -7818,7 +7814,6 @@ del {
   padding: 10px 0 10px 0px;
 }
 
-/* line 1028, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select .list .option {
   font-weight: 300;
   -webkit-transition: all 0.3s ease 0s;
@@ -7831,53 +7826,43 @@ del {
   padding-left: 45px;
 }
 
-/* line 1035, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select .list .option.selected {
   color: #1f2b7b;
   background: transparent;
 }
 
-/* line 1039, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select .list .option:hover {
   color: #1f2b7b;
   background: transparent;
 }
 
-/* line 1046, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .current {
   margin-right: 50px;
   font-weight: 300;
 }
 
-/* line 1050, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .form-select .nice-select::after {
   right: 20px;
 }
 
-/* line 1054, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .mt-10 {
   margin-top: 10px;
 }
 
-/* line 1057, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .section-top-border {
   padding: 50px 0;
   border-top: 1px dotted #eee;
 }
 
-/* line 1061, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .mb-30 {
   margin-bottom: 30px;
 }
 
-/* line 1064, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .mt-30 {
   margin-top: 30px;
 }
 
-/* line 1067, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_elements.scss */
 .switch-wrap {
   margin-bottom: 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
