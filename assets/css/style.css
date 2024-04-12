@@ -3329,6 +3329,24 @@ hr {
   }
 }
 
+.college-name {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  text-align: center;
+  margin-top: 33px;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+
+@media only screen and (max-width: 768px) {
+  .college-name {
+    font-size: 20px;
+    margin-bottom: -68px;
+
+  }
+}
+
 /* line 31, C:/Users/HP/Desktop/July-HTML/292 Health coach/assets/scss/_h1-hero.scss */
 .slider-area2 {
   background-image: url(../img/hero/hero2.png);
